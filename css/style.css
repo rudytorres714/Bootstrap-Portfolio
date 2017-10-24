@@ -1,0 +1,25 @@
+p   {
+line-height: 33px;
+}
+.row    {
+    margin-top: 20px;
+}
+
+.none li    {
+    list-style-type: none;
+}
+
+.colorChange    {
+    background-color: #3c4554;
+    color: white;
+}
+
+html    {
+    box-sizing: border-box;
+}
+#projects   {
+    text-indent: 40px;
+}
+.contactForm    {
+ margin-top: 40px;
+}

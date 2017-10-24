@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact Page</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand glyphicon glyphicon-apple" href="index.html" ></a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+            <ul class="nav navbar-nav">
+
+                <li class="dropdown">
+                    <a href="index.html" class="dropdown-toggle active" data-toggle="dropdown" role="button" aria-expanded="false">HOME <span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="index.html">About Me</a></li>
+                        <li><a href="index.html">Early Years</a></li>
+                        <li class="divider"></li>
+                        <li><a href="index.html">Professional</a></li>
+                        <li class="divider"></li>
+                        <li><a href="portfolio.html">Project Designs</a></li>
+                    </ul>
+                </li>
+
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">PORTFOLIO <span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="portfolio.html">Projects</a></li>
+                        <li class="divider"></li>
+                        <li><a href="portfolio.html">Upcoming Events</a></li>
+                        <li class="divider"></li>
+                        <li><a href="portfolio.html">Past Events</a></li>
+                    </ul>
+                </li>
+
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">COMPANY INFO<span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="contact.html">Forms</a></li>
+                        <li><a href="#none">About Us</a></li>
+                        <li class="divider"></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#none">Social</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <form class="navbar-form navbar-left" role="search">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Search">
+                </div>
+                <button type="submit" class="btn btn-default">Submit</button>
+            </form>
+            <ul class="nav navbar-nav navbar-right">
+                <li class="active"><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<div id="contactCarousel" class="carousel ">
+
+    <div class="carousel-inner">
+        <div class="item active">
+            <img src="images/contact1.jpg" alt="...">
+            <div class="carousel-caption">
+                <h1>We're here to help</h1>
+                <p>Please submit an online form via contact page, email or call us </p>
+                <p><a href="contact.html" class="btn btn-primary btn-sm">Help</a></p>
+
+            </div>
+        </div>
+    </div>
+</div>
+    <div class="container contactForm">
+
+    <form class="form-horizontal">
+        <fieldset>
+            <legend>Contact Form</legend>
+
+            <div class="form-group">
+                <label for="inputEmail" class="col-lg-2 control-label">Name</label>
+                <div class="col-lg-10">
+                    <input type="text" class="form-control" id="name" placeholder="First and Last name">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="inputEmail" class="col-lg-2 control-label">Email</label>
+                <div class="col-lg-10">
+                    <input type="text" class="form-control" id="inputEmail" placeholder="Email">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="inputPassword" class="col-lg-2 control-label">Company</label>
+                <div class="col-lg-10">
+                    <input type="password" class="form-control" id="inputPassword" placeholder="Organization">
+
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="textArea" class="col-lg-2 control-label">Message</label>
+                <div class="col-lg-10">
+                    <textarea class="form-control" rows="8" id="textArea"></textarea>
+                </div>
+            </div>
+
+
+            <div class="form-group">
+                <div class="col-lg-10 col-lg-offset-2">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+            </div>
+        </fieldset>
+    </form>
+
+
+
+    </div>
+
+
+
+
+<div class="modal-footer colorChange">
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-md-3 col-xs-6 col-sm-6">
+
+                <h3 class="none">Overview</h3>
+                <ul>
+                    <li style="list-style: none"><a href="index.html">Features</a></li>
+                    <li style="list-style: none"><a href="index.html">Services</a></li>
+                    <li style="list-style: none"><a href="contact.html">Support</a></li>
+                    <li style="list-style: none"><a href="index.html">Blog</a></li>
+                    <li style="list-style: none"><a href="index.html">Coming Soon</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-3 col-sm-6 col-xs-6">
+
+                <h3 id="none">Menu</h3>
+                <ul>
+                    <li style="list-style: none"><a href="index.html">About Us</a></li>
+                    <li style="list-style: none"><a href="index.html">Contact Us</a></li>
+                    <li style="list-style: none"><a href="contact.html">Jobs</a></li>
+                    <li style="list-style: none"><a href="index.html">Portfolio</a></li>
+                    <li style="list-style: none"><a href="index.html">Company Info</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-2 col-sm-6 col-xs-6">
+
+                <h3 class="none">Social</h3>
+                <ul>
+                    <li style="list-style: none"><a href="index.html">Facebook</a></li>
+                    <li style="list-style: none"><a href="index.html">LinkedIn</a></li>
+                    <li style="list-style: none"><a href="contact.html">Youtube</a></li>
+                    <li style="list-style: none"><a href="index.html">Twitter</a></li>
+                </ul>
+            </div>
+
+
+            <div class="form-group">
+                <div class="col-md-3 col-xs-6 col-sm-6">
+                    <p><br>Sign up for our latest news
+                    </p>
+                    <input type="text" class="form-control" placeholder="Your email address">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+
+                </div>
+            </div>
+
+
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>
